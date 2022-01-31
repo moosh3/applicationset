@@ -5,9 +5,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'git@ssh.dev.azure.com:v3/example/kubernetes/kubernetes'
+    repoURL: https://github.com/moosh3/applicationset.git
     path: argocd
-    targetRevision: master
+    targetRevision: HEAD
   destination:
     namespace: argocd
     name: in-cluster

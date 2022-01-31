@@ -3,10 +3,10 @@ kind: ConfigMap
 metadata:
   name: argocd-cm
 data:
-  repositories: |-
-    - name: vecc
-      sshPrivateKeySecret:
-        name: example-kubernetes-ssh
-        key: sshPrivateKey
-      type: git
-      url: git@ssh.dev.azure.com:v3/example/kubernetes/kubernetes
+  # repositories: |-
+  #   - name: vecc
+  #     sshPrivateKeySecret:
+  #       name: example-kubernetes-ssh
+  #       key: sshPrivateKey
+  #     type: git
+  #     url: git@ssh.dev.azure.com:v3/example/kubernetes/kubernetes
