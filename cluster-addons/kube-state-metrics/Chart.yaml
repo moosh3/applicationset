@@ -18,6 +18,6 @@ type: application
 version: 2.2.4
 
 dependencies:
-  - name: aws-load-balancer-controller
+  - name: kube-state-metrics
     version: 2.2.4
     repository: https://charts.bitnami.com/bitnami
